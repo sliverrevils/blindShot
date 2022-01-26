@@ -1,0 +1,31 @@
+.goodShot{
+    animation-name: good;
+    animation-duration:100ms ;
+}
+
+.badShot{
+    animation-name: bad;
+    animation-duration: 200ms;
+
+}
+
+@keyframes good{
+    0%{
+        font-size: 60px;
+    }
+    100%{
+        color: chartreuse;
+        font-size: 300px;
+    }
+}
+
+@keyframes bad{
+
+    0%{
+        font-size: 60px;
+    }
+    100%{
+        color: rgb(226, 15, 7);
+        font-size: 300px;
+    }
+}
